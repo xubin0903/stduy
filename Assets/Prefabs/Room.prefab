@@ -73,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 709612505
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dc5d58ad7051e4f9b838d0b9d987ff6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -172,5 +172,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colume: 0
   line: 0
-  roomDataSO: {fileID: 11400000, guid: 052d4be666814e84fb3bd51aea5aa1e2, type: 2}
+  roomDataSO: {fileID: 11400000, guid: a7f96105afdfc024083f1e229e629e76, type: 2}
   roomState: 0

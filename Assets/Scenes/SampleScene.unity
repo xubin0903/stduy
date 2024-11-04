@@ -180,7 +180,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -241,7 +241,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomPrefab: {fileID: 6438457817125641455, guid: 5185e8c1155a7b2418a1dc7dbf1ac7a8, type: 3}
+  linePrefab: {fileID: 49760213162219218, guid: b31910269b5b24940bf2a35103c32fd2, type: 3}
   mapConfigSO: {fileID: 11400000, guid: c112a09abebde1145980d525e440cbf9, type: 2}
+  boder: 1.5
 --- !u!4 &902326573
 Transform:
   m_ObjectHideFlags: 0
@@ -315,8 +317,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1097743929
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2b2dc9df3d2ea44e894e5ea27008123d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -338,8 +340,8 @@ Transform:
   m_GameObject: {fileID: 2099454486}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0001, y: 0.0292, z: 0}
-  m_LocalScale: {x: 0.7359129, y: 0.7463464, z: 0.75}
+  m_LocalPosition: {x: 0.0299, y: -0.0061, z: 0}
+  m_LocalScale: {x: 0.9802311, y: 0.98499143, z: 0.75}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
