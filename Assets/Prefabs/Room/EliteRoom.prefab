@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 8690030505807407135}
   - component: {fileID: 6438457817125641455}
   m_Layer: 0
-  m_Name: Room
+  m_Name: EliteRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e475fd502039e4683d86e73a7af650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadRoomEvent: {fileID: 11400000, guid: 899349ccf568bfc458c4fc2e38e3a4cb, type: 2}
   colume: 0
   line: 0
-  roomDataSO: {fileID: 11400000, guid: a7f96105afdfc024083f1e229e629e76, type: 2}
+  roomDataSO: {fileID: 11400000, guid: 911dfa8ac95fb904495be2b85bd8ac04, type: 2}
   roomState: 0

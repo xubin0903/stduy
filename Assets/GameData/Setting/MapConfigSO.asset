@@ -15,22 +15,22 @@ MonoBehaviour:
   roomblueprints:
   - min: 2
     max: 5
-    roomType: 1
+    roomTypes: 01000000
   - min: 2
     max: 4
-    roomType: 3
+    roomTypes: 010000000200000010000000
   - min: 3
     max: 5
-    roomType: 21
+    roomTypes: 01000000020000000400000001000000
   - min: 1
     max: 5
-    roomType: 35
+    roomTypes: 020000000200000001000000
   - min: 2
     max: 5
-    roomType: 23
+    roomTypes: 0100000002000000040000001000000001000000
   - min: 2
     max: 2
-    roomType: 32
+    roomTypes: 2000000020000000
   - min: 1
     max: 1
-    roomType: 8
+    roomTypes: 08000000

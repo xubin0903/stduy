@@ -9,6 +9,6 @@ public class MapConfigSO: ScriptableObject
 public class Roomblueprint
 {
     public int min, max;
-    public RoomType roomType;
+    public RoomType[] roomTypes;
 
 }

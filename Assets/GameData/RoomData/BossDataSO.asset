@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491a9371b87582345b8426bfe73e917c, type: 3}
   m_Name: BossDataSO
   m_EditorClassIdentifier: 
-  roomType: 3
+  roomType: 8
   roomIcon: {fileID: 21300000, guid: 8e5bebd214d59430d8dff7bb4e40f292, type: 3}
   sceneToLoad:
-    m_AssetGUID: 
+    m_AssetGUID: cb3c7c5f584bf6a4383dabaabddf1864
     m_SubObjectName: 
     m_SubObjectGUID: 
     m_SubObjectType: 

@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Room : MonoBehaviour
 {
+    [Header("广播")]
+    public ObjectEventSO loadRoomEvent;
     public int colume;
     public int line;
     private SpriteRenderer spriteRenderer;
@@ -18,6 +20,7 @@ public class Room : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("房间类型:" + roomDataSO.roomType);
+        loadRoomEvent.RaiseEvent(roomDataSO,this);
     }
     public void SetUpRoom(int colume,int line,RoomDataSO roomDataSO)
     {
