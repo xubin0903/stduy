@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 709612505
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dc5d58ad7051e4f9b838d0b9d987ff6b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 84605f03162064daa87d5f4cb8444457, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -155,8 +155,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.02195406, y: -0.18660963}
-  m_Size: {x: 1.180577, y: 2.8990295}
+  m_Offset: {x: 0.039700747, y: -0.45635033}
+  m_Size: {x: 2.9993985, y: 3.5388799}
   m_Direction: 0
 --- !u!114 &6438457817125641455
 MonoBehaviour:
@@ -171,7 +171,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadRoomEvent: {fileID: 11400000, guid: 899349ccf568bfc458c4fc2e38e3a4cb, type: 2}
-  colume: 0
+  saveRoomEvent: {fileID: 11400000, guid: d12c64bf05e41c542bccc2ebfc9a25ed, type: 2}
+  column: 0
   line: 0
   roomDataSO: {fileID: 11400000, guid: 1a665dc33e9dfba42a7c943ab59d3dbd, type: 2}
   roomState: 0
+  connectedRooms: []

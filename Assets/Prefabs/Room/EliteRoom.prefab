@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 709612505
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dc5d58ad7051e4f9b838d0b9d987ff6b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e6eed6c2563884002ae7cb10446a7474, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -171,7 +171,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadRoomEvent: {fileID: 11400000, guid: 899349ccf568bfc458c4fc2e38e3a4cb, type: 2}
-  colume: 0
+  saveRoomEvent: {fileID: 11400000, guid: d12c64bf05e41c542bccc2ebfc9a25ed, type: 2}
+  column: 0
   line: 0
   roomDataSO: {fileID: 11400000, guid: 911dfa8ac95fb904495be2b85bd8ac04, type: 2}
   roomState: 0
+  connectedRooms: []

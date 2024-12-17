@@ -171,7 +171,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadRoomEvent: {fileID: 11400000, guid: 899349ccf568bfc458c4fc2e38e3a4cb, type: 2}
-  colume: 0
+  saveRoomEvent: {fileID: 11400000, guid: d12c64bf05e41c542bccc2ebfc9a25ed, type: 2}
+  column: 0
   line: 0
   roomDataSO: {fileID: 11400000, guid: a7f96105afdfc024083f1e229e629e76, type: 2}
   roomState: 0
+  connectedRooms: []
